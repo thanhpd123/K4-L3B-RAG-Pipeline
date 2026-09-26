@@ -1,0 +1,127 @@
+{
+  "in_domain": [
+    {
+      "query": "Thí sinh được đổi ngày thi IELTS miễn phí chậm nhất là bao nhiêu ngày trước ngày thi?",
+      "best_cosine": 0.7834
+    },
+    {
+      "query": "Nếu thí sinh yêu cầu đổi ngày thi IELTS trong vòng 14 ngày đến 4 ngày trước ngày thi thì phải nộp phí bao nhiêu?",
+      "best_cosine": 0.8196
+    },
+    {
+      "query": "Yêu cầu đổi ngày thi IELTS trong vòng 3 ngày trước ngày thi có được chấp nhận không?",
+      "best_cosine": 0.7725
+    },
+    {
+      "query": "Thí sinh được đổi ngày thi IELTS tối đa bao nhiêu lần?",
+      "best_cosine": 0.7386
+    },
+    {
+      "query": "Nếu thí sinh đăng ký thi trong vòng 3 ngày trước ngày thi thì có được hủy thi hoặc đổi ngày thi không?",
+      "best_cosine": 0.7496
+    },
+    {
+      "query": "Hủy thi IELTS trước 15 ngày so với ngày thi đã đăng ký thì được hoàn bao nhiêu phần trăm lệ phí?",
+      "best_cosine": 0.8117
+    },
+    {
+      "query": "Hủy thi IELTS trong vòng dưới 15 ngày trước ngày thi thì có được hoàn phí không?",
+      "best_cosine": 0.7912
+    },
+    {
+      "query": "Quy trình hoàn phí thi IELTS cho thí sinh được thực hiện trong bao lâu?",
+      "best_cosine": 0.7105
+    },
+    {
+      "query": "Thí sinh thi IELTS for UKVI hủy đăng ký trong vòng 15 ngày trước ngày thi được hoàn trả bao nhiêu?",
+      "best_cosine": 0.8121
+    },
+    {
+      "query": "Những trường hợp nào được xem là ngoại lệ khi hủy hoặc đổi ngày thi IELTS?",
+      "best_cosine": 0.7184
+    },
+    {
+      "query": "Điểm IELTS Overall được tính như thế nào?",
+      "best_cosine": 0.7467
+    },
+    {
+      "query": "Điểm trung bình bốn kỹ năng là 6.75 thì điểm IELTS Overall được làm tròn thành bao nhiêu?",
+      "best_cosine": 0.743
+    },
+    {
+      "query": "Bài thi IELTS Writing được chấm bởi bao nhiêu giám khảo?",
+      "best_cosine": 0.7859
+    },
+    {
+      "query": "Cấu trúc và thời gian các kỹ năng trong kỳ thi IELTS như thế nào?",
+      "best_cosine": 0.7958
+    },
+    {
+      "query": "Thí sinh thi Nghe, Đọc và Viết trong cùng một ngày thì có thời gian nghỉ giữa các môn không?",
+      "best_cosine": 0.644
+    },
+    {
+      "query": "Tiêu chí Task Achievement chiếm bao nhiêu phần trăm tổng số điểm bài thi IELTS Writing?",
+      "best_cosine": 0.806
+    },
+    {
+      "query": "Theo tiêu chí Task Achievement, thí sinh cần viết tối thiểu bao nhiêu từ cho Task 1 và Task 2?",
+      "best_cosine": 0.718
+    },
+    {
+      "query": "Coherence và Cohesion trong IELTS Writing khác nhau như thế nào?",
+      "best_cosine": 0.7792
+    },
+    {
+      "query": "Những lỗi sai thường gặp ở tiêu chí Cohesion trong IELTS Writing là gì?",
+      "best_cosine": 0.7884
+    },
+    {
+      "query": "Tiêu chí Lexical Resource đánh giá những khía cạnh nào và chiếm bao nhiêu phần trăm điểm?",
+      "best_cosine": 0.7058
+    },
+    {
+      "query": "Cho ví dụ về collocation được bài viết gợi ý để cải thiện Lexical Resource.",
+      "best_cosine": 0.5631
+    },
+    {
+      "query": "Theo tiêu chí Grammatical Range and Accuracy, thí sinh ở phạm vi band 7 đến 9 nên mắc bao nhiêu lỗi ngữ pháp?",
+      "best_cosine": 0.6243
+    },
+    {
+      "query": "Trong IELTS Writing, điểm của Task 2 có trọng số như thế nào so với Task 1?",
+      "best_cosine": 0.7052
+    }
+  ],
+  "out_of_domain": [
+    {
+      "query": "Cách nấu phở bò ngon tại nhà",
+      "best_cosine": 0.3901
+    },
+    {
+      "query": "Giá vé máy bay Hà Nội đi Tokyo tháng 12",
+      "best_cosine": 0.4151
+    },
+    {
+      "query": "Lịch thi đấu Ngoại hạng Anh tối nay",
+      "best_cosine": 0.4321
+    },
+    {
+      "query": "Cách trồng cây lưỡi hổ trong nhà",
+      "best_cosine": 0.3402
+    },
+    {
+      "query": "Thủ tục đăng ký tạm trú tạm vắng mới nhất",
+      "best_cosine": 0.471
+    }
+  ],
+  "summary": {
+    "in_domain_min": 0.5631,
+    "in_domain_median": 0.7496,
+    "in_domain_max": 0.8196,
+    "out_of_domain_min": 0.3402,
+    "out_of_domain_median": 0.4151,
+    "out_of_domain_max": 0.471,
+    "suggested_threshold": 0.5171
+  }
+}

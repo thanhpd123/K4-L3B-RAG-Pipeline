@@ -1,0 +1,186 @@
+[
+    {
+        "id": "legal-01",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Thí sinh được đổi ngày thi IELTS miễn phí chậm nhất là bao nhiêu ngày trước ngày thi?",
+        "expected_answer": "Chậm nhất là mười lăm (15) ngày trước ngày thi Nghe, Đọc, Viết đã đăng ký.",
+        "expected_context": "Thí sinh được yêu cầu đổi ngày thi miễn phí chậm nhất là mười lăm (15) ngày trước ngày thi Nghe, Đọc, Viết đã đăng ký."
+    },
+    {
+        "id": "legal-02",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Nếu thí sinh yêu cầu đổi ngày thi IELTS trong vòng 14 ngày đến 4 ngày trước ngày thi thì phải nộp phí bao nhiêu?",
+        "expected_answer": "Phí đổi ngày thi là 1.100.000 Việt Nam đồng.",
+        "expected_context": "Nếu thí sinh yêu cầu đổi ngày thi trong vòng mười bốn (14) ngày đến bốn (04) ngày trước ngày thi Nghe, Đọc, Viết đã đăng ký: thí sinh nộp phí đổi ngày thi là 1.100.000 Việt Nam đồng."
+    },
+    {
+        "id": "legal-03",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Yêu cầu đổi ngày thi IELTS trong vòng 3 ngày trước ngày thi có được chấp nhận không?",
+        "expected_answer": "Không được chấp nhận, ngoại trừ các trường hợp ngoại lệ.",
+        "expected_context": "Nếu thí sinh yêu cầu đổi ngày thi trong vòng 3 ngày trước ngày thi Nghe, Đọc, Viết đã đăng ký: yêu cầu chuyển ngày thi sẽ không được chấp nhận, ngoại trừ các trường hợp ngoại lệ."
+    },
+    {
+        "id": "legal-04",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Thí sinh được đổi ngày thi IELTS tối đa bao nhiêu lần?",
+        "expected_answer": "Chỉ được đổi ngày thi một lần duy nhất trong tất cả các trường hợp.",
+        "expected_context": "Thí sinh chỉ được đổi ngày thi một lần duy nhất trong tất cả các trường hợp. Nếu thí sinh không thể tham dự ngày thi mới, thí sinh sẽ không thể tiếp tục yêu cầu chuyển ngày thi hoặc hoàn trả lệ phí thi."
+    },
+    {
+        "id": "legal-05",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Nếu thí sinh đăng ký thi trong vòng 3 ngày trước ngày thi thì có được hủy thi hoặc đổi ngày thi không?",
+        "expected_answer": "Không. Thí sinh đăng ký thi trong vòng ba (03) ngày trước ngày thi sẽ không được hủy thi hoặc đổi ngày thi.",
+        "expected_context": "Thí sinh đăng ký thi trong vòng ba (03) ngày trước ngày thi Nghe, Đọc, Viết sẽ KHÔNG được hủy thi hoặc đổi ngày thi."
+    },
+    {
+        "id": "legal-06",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Hủy thi IELTS trước 15 ngày so với ngày thi đã đăng ký thì được hoàn bao nhiêu phần trăm lệ phí?",
+        "expected_answer": "Thí sinh nhận được hoàn 75% lệ phí thi.",
+        "expected_context": "Nếu thí sinh yêu cầu hủy thi trước 15 ngày so với ngày thi Nghe, Đọc, Viết đã đăng ký: thí sinh sẽ nhận được hoàn 75% lệ phí thi."
+    },
+    {
+        "id": "legal-07",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Hủy thi IELTS trong vòng dưới 15 ngày trước ngày thi thì có được hoàn phí không?",
+        "expected_answer": "Không được hoàn phí, ngoại trừ các trường hợp ngoại lệ.",
+        "expected_context": "Nếu thí sinh yêu cầu hủy thi trong vòng dưới 15 ngày trước ngày thi Nghe, Đọc, Viết đã đăng ký: thí sinh sẽ không được hoàn phí, ngoại trừ các trường hợp ngoại lệ."
+    },
+    {
+        "id": "legal-08",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Quy trình hoàn phí thi IELTS cho thí sinh được thực hiện trong bao lâu?",
+        "expected_answer": "Trong vòng sáu tuần, tính từ ngày thí sinh cung cấp đầy đủ hồ sơ hợp lệ.",
+        "expected_context": "Tất cả các quy trình hoàn phí cho thí sinh sẽ được thực hiện trong vòng sáu tuần, tính từ ngày thí sinh cung cấp đầy đủ hồ sơ hợp lệ."
+    },
+    {
+        "id": "legal-09",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Thí sinh thi IELTS for UKVI hủy đăng ký trong vòng 15 ngày trước ngày thi được hoàn trả bao nhiêu?",
+        "expected_answer": "Được hoàn trả 75% tổng lệ phí thi.",
+        "expected_context": "Nếu bạn hủy đăng ký thi IELTS for UKVI trong vòng 15 ngày trước ngày thi, bạn sẽ nhận được hoàn trả 75% tổng lệ phí thi."
+    },
+    {
+        "id": "legal-10",
+        "category": "legal",
+        "source": "legal/IELTS_policies.md",
+        "question": "Những trường hợp nào được xem là ngoại lệ khi hủy hoặc đổi ngày thi IELTS?",
+        "expected_answer": "Bao gồm: bệnh nghiêm trọng khiến không thể tham gia thi (có giấy xác nhận y tế, không gồm bệnh thông thường như cảm cúm); người thân trực hệ qua đời trong vòng hai tháng trước ngày thi; tai nạn nghiêm trọng hoặc chấn thương; thực hiện nghĩa vụ công dân bắt buộc; điều kiện thời tiết khắc nghiệt, thiên tai, bất ổn dân sự hoặc sự cố giao thông.",
+        "expected_context": "Trường hợp ngoại lệ: Thí sinh có các bệnh nghiêm trọng khiến thí sinh không thể tham gia thi... Người thân trực hệ trong gia đình của thí sinh qua đời trong vòng hai tháng trước ngày thi. Thí sinh gặp tai nạn nghiêm trọng hoặc chấn thương... Thí sinh thực hiện nghĩa vụ công dân bắt buộc... Các điều kiện thời tiết khắc nghiệt như thiên tai, thảm họa... hay bất ổn dân sự... cũng như sự cố giao thông."
+    },
+    {
+        "id": "scoring-01",
+        "category": "legal",
+        "source": "legal/scoring_barem.md",
+        "question": "Điểm IELTS Overall được tính như thế nào?",
+        "expected_answer": "Điểm Overall là trung bình cộng điểm bốn kỹ năng Reading, Listening, Speaking và Writing; các kỹ năng có trọng số như nhau và điểm được làm tròn đến số nguyên hoặc nửa band gần nhất.",
+        "expected_context": "Thang điểm IELTS được tính từ 1.0 – 9.0 IELTS (Overall điểm thi IELTS được tính trung bình cộng điểm 4 kỹ năng Reading, Listening, Speaking và Writing). Điểm tổng thể là điểm trung bình của bốn điểm thành phần, làm tròn đến số nguyên hoặc nửa band gần nhất. Điểm thành phần được tính trọng số như nhau."
+    },
+    {
+        "id": "scoring-02",
+        "category": "legal",
+        "source": "legal/scoring_barem.md",
+        "question": "Điểm trung bình bốn kỹ năng là 6.75 thì điểm IELTS Overall được làm tròn thành bao nhiêu?",
+        "expected_answer": "Được làm tròn lên 7.0, vì số lẻ lớn hơn hoặc bằng 0.75 thì làm tròn lên số nguyên tiếp theo.",
+        "expected_context": "Số lẻ nằm lớn hơn hoặc bằng 0,75 (x >= 0,75) thì làm tròn lên .0 (Ví dụ: 6.75 → 7.0). Mẹo ghi nhớ: Điểm có đuôi .25 được làm tròn lên .5, còn điểm có đuôi .75 được làm tròn lên số nguyên tiếp theo."
+    },
+    {
+        "id": "scoring-03",
+        "category": "legal",
+        "source": "legal/scoring_barem.md",
+        "question": "Bài thi IELTS Writing được chấm bởi bao nhiêu giám khảo?",
+        "expected_answer": "Ít nhất 2 giám khảo, và đôi khi tối đa lên đến bốn giám khảo.",
+        "expected_context": "Bài thi Viết – IELTS Writing sẽ được chấm điểm bởi ít nhất 2 giám khảo, và đôi khi tối đa lên đến bốn giám khảo để đạt được mức độ chính xác và công bằng cao nhất."
+    },
+    {
+        "id": "format-01",
+        "category": "legal",
+        "source": "legal/test_format.md",
+        "question": "Cấu trúc và thời gian các kỹ năng trong kỳ thi IELTS như thế nào?",
+        "expected_answer": "Kỳ thi gồm bốn kỹ năng với tổng thời gian dưới ba giờ: Listening 30 phút, Reading 60 phút, Writing 60 phút, Speaking 11-15 phút.",
+        "expected_context": "Cấu trúc đề thi IELTS là kỳ thi gồm có bốn kỹ năng với tổng thời gian làm bài thi là dưới ba giờ. Kỹ năng nghe (IELTS Listening): 30 phút. Kỹ năng Đọc (IELTS Reading): 60 phút. Kỹ năng Viết (IELTS Writing): 60 phút. Kỹ năng Nói (IELTS Speaking): 11-15 phút."
+    },
+    {
+        "id": "format-02",
+        "category": "legal",
+        "source": "legal/test_format.md",
+        "question": "Thí sinh thi Nghe, Đọc và Viết trong cùng một ngày thì có thời gian nghỉ giữa các môn không?",
+        "expected_answer": "Không có thời gian nghỉ giữa các môn thi Nghe, Đọc và Viết.",
+        "expected_context": "Bạn sẽ thi từng kỹ năng Nghe, Đọc và Viết vào cùng một ngày theo thứ tự và không có thời gian nghỉ giữa các môn thi."
+    },
+    {
+        "id": "news-01",
+        "category": "news",
+        "source": "news/article_01.md",
+        "question": "Tiêu chí Task Achievement chiếm bao nhiêu phần trăm tổng số điểm bài thi IELTS Writing?",
+        "expected_answer": "Task Achievement chiếm 25% tổng số điểm bài thi IELTS Writing.",
+        "expected_context": "IELTS Writing Task Achievement (hay còn gọi là Task Response) là một trong bốn tiêu chí chấm điểm và chiếm 25% tổng số điểm bài thi IELTS Writing."
+    },
+    {
+        "id": "news-02",
+        "category": "news",
+        "source": "news/article_01.md",
+        "question": "Theo tiêu chí Task Achievement, thí sinh cần viết tối thiểu bao nhiêu từ cho Task 1 và Task 2?",
+        "expected_answer": "Viết ít nhất 150 từ với Task 1 và ít nhất 250 từ với Task 2.",
+        "expected_context": "Với Task 1, nên viết ít nhất 150 từ và ít nhất 250 từ đối với Task 2."
+    },
+    {
+        "id": "news-03",
+        "category": "news",
+        "source": "news/article_02.md",
+        "question": "Coherence và Cohesion trong IELTS Writing khác nhau như thế nào?",
+        "expected_answer": "Coherence là sự liên kết logic, chặt chẽ của thông tin, cách chia đoạn, câu chủ đề và ví dụ bổ trợ; Cohesion thể hiện qua việc sử dụng từ nối (linking words) để bài viết liền mạch và mạch lạc hơn.",
+        "expected_context": "Coherence: Những thông tin cung cấp trong bài cần có sự liên kết logic và chặt chẽ. Các đoạn văn cần được chia sao cho hợp lý, có câu chủ đề hoặc ví dụ để bổ trợ cho các ý được nêu trong từng đoạn. Cohesion: Xét đến khía cạnh từ vựng và ngữ pháp, Cohesion thể hiện yếu tố liên kết thông qua việc sử dụng từ nối (linking words)."
+    },
+    {
+        "id": "news-04",
+        "category": "news",
+        "source": "news/article_02.md",
+        "question": "Những lỗi sai thường gặp ở tiêu chí Cohesion trong IELTS Writing là gì?",
+        "expected_answer": "Sử dụng quá nhiều từ nối làm bài viết cứng nhắc; sử dụng từ nối không phù hợp với ngữ cảnh; và sử dụng từ thuộc văn nói hoặc không phổ biến như 'Last but not least' thay vì 'Finally'.",
+        "expected_context": "4.1. Sử dụng quá nhiều từ nối... dẫn đến bài viết trở nên cứng nhắc và khó hiểu. 4.2. Sử dụng từ nối không phù hợp... Sử dụng từ nối sai với từng trường hợp sẽ khiến bài viết khó hiểu. 4.3. Sử dụng từ thuộc văn nói và không phổ biến... 'Last but not least' không đủ trang trọng."
+    },
+    {
+        "id": "news-05",
+        "category": "news",
+        "source": "news/article_03.md",
+        "question": "Tiêu chí Lexical Resource đánh giá những khía cạnh nào và chiếm bao nhiêu phần trăm điểm?",
+        "expected_answer": "Lexical Resource chiếm 25% tổng số điểm và đánh giá độ linh hoạt từ vựng (Flexibility), cách dùng Collocations (cụm từ) và việc sử dụng từ vựng ít phổ biến hơn (Less common words).",
+        "expected_context": "Lexical Resource là một tiêu chí quan trọng trong bài thi IELTS Speaking và Writing vì nó chiếm đến 25% tổng số điểm của bạn... Flexibility (Độ linh hoạt từ vựng)... Collocations (Cụm từ)... Less common words (Từ vựng ít phổ biến hơn)."
+    },
+    {
+        "id": "news-06",
+        "category": "news",
+        "source": "news/article_03.md",
+        "question": "Cho ví dụ về collocation được bài viết gợi ý để cải thiện Lexical Resource.",
+        "expected_answer": "Ví dụ collocation 'have a preference for' (động từ 'have' + mạo từ 'a' + danh từ 'preference' + giới từ 'for'), hoặc cụm tính từ 'find (something) more preferable'.",
+        "expected_context": "Trong trường hợp này, động từ “have” kết hợp với “preference” (kèm với mạo từ “a“), thêm sau là giới từ “for”. Như vậy, cụm danh từ được hình thành như sau: have a preference for. Đối với cụm tính từ, bạn có thể sử dụng find (something) more preferable."
+    },
+    {
+        "id": "news-07",
+        "category": "news",
+        "source": "news/article_04.md",
+        "question": "Theo tiêu chí Grammatical Range and Accuracy, thí sinh ở phạm vi band 7 đến 9 nên mắc bao nhiêu lỗi ngữ pháp?",
+        "expected_answer": "Ở phạm vi từ 7 đến 9 điểm, người nói hoặc người viết chỉ nên mắc một vài lỗi.",
+        "expected_context": "Ở phạm vi từ 7 đến 9 điểm, người nói hoặc người viết chỉ nên mắc một vài lỗi. Ở phạm vi từ 4 đến 6 điểm, các lỗi ngữ pháp sẽ mắc phải nhiều hơn, nhưng sự khác biệt là với phạm vi 6 điểm, các lỗi này không ảnh hưởng đến nội dung mà người viết hoặc người nói muốn truyền đạt."
+    },
+    {
+        "id": "news-08",
+        "category": "news",
+        "source": "news/article_05.md",
+        "question": "Trong IELTS Writing, điểm của Task 2 có trọng số như thế nào so với Task 1?",
+        "expected_answer": "Writing Task 2 có số điểm gấp đôi Task 1.",
+        "expected_context": "Bạn hãy lưu ý rằng bài Task 2 có giá trị gấp đôi điểm bài Task 1. Writing Task 2 có số điểm gấp đôi Task 1."
+    }
+]

@@ -38,6 +38,11 @@ htmlcov/
 # Temp PDF conversion cache
 data/_tmp_pdf/
 
+# Generated vector index / PageIndex upload cache
+chroma_db/
+data/pageindex_doc_ids.json
+data/pageindex_pdfs/
+
 # Temp / cache
 .pytest_cache/
 *.tmp
@@ -55,3 +60,5 @@ pageindex_pdfs/
 # OS
 .DS_Store
 Thumbs.db
+
+chroma_db/

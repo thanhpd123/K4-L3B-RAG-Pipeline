@@ -1,0 +1,587 @@
+{
+  "top_k": 5,
+  "configs": {
+    "A": {
+      "label": "dense-only",
+      "use_reranking": false,
+      "means": {
+        "faithfulness": 0.9565,
+        "answer_relevancy": 0.7897,
+        "context_recall": 0.7609,
+        "llm_context_precision_with_reference": 0.7225
+      },
+      "per_case": [
+        {
+          "id": "legal-01",
+          "question": "Thí sinh được đổi ngày thi IELTS miễn phí chậm nhất là bao nhiêu ngày trước ngày thi?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8384,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 2.814,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-02",
+          "question": "Nếu thí sinh yêu cầu đổi ngày thi IELTS trong vòng 14 ngày đến 4 ngày trước ngày thi thì phải nộp phí bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8203,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 3.558,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-03",
+          "question": "Yêu cầu đổi ngày thi IELTS trong vòng 3 ngày trước ngày thi có được chấp nhận không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8384,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.395,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-04",
+          "question": "Thí sinh được đổi ngày thi IELTS tối đa bao nhiêu lần?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8967,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.723,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-05",
+          "question": "Nếu thí sinh đăng ký thi trong vòng 3 ngày trước ngày thi thì có được hủy thi hoặc đổi ngày thi không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8958,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.493,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-06",
+          "question": "Hủy thi IELTS trước 15 ngày so với ngày thi đã đăng ký thì được hoàn bao nhiêu phần trăm lệ phí?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9175,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.5833
+          },
+          "latency_s": 4.751,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-07",
+          "question": "Hủy thi IELTS trong vòng dưới 15 ngày trước ngày thi thì có được hoàn phí không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9117,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.25
+          },
+          "latency_s": 4.695,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-08",
+          "question": "Quy trình hoàn phí thi IELTS cho thí sinh được thực hiện trong bao lâu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.6867,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.498,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-09",
+          "question": "Thí sinh thi IELTS for UKVI hủy đăng ký trong vòng 15 ngày trước ngày thi được hoàn trả bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9505,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.546,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-10",
+          "question": "Những trường hợp nào được xem là ngoại lệ khi hủy hoặc đổi ngày thi IELTS?",
+          "scores": {
+            "faithfulness": 0.6667,
+            "answer_relevancy": 0.0,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 0.0
+          },
+          "latency_s": 4.862,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-01",
+          "question": "Điểm IELTS Overall được tính như thế nào?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.585,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-02",
+          "question": "Điểm trung bình bốn kỹ năng là 6.75 thì điểm IELTS Overall được làm tròn thành bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9638,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.436,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-03",
+          "question": "Bài thi IELTS Writing được chấm bởi bao nhiêu giám khảo?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.987,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.9,
+          "contexts_count": 5
+        },
+        {
+          "id": "format-01",
+          "question": "Cấu trúc và thời gian các kỹ năng trong kỳ thi IELTS như thế nào?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.663,
+          "contexts_count": 5
+        },
+        {
+          "id": "format-02",
+          "question": "Thí sinh thi Nghe, Đọc và Viết trong cùng một ngày thì có thời gian nghỉ giữa các môn không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8652,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.25
+          },
+          "latency_s": 4.293,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-01",
+          "question": "Tiêu chí Task Achievement chiếm bao nhiêu phần trăm tổng số điểm bài thi IELTS Writing?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.473,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-02",
+          "question": "Theo tiêu chí Task Achievement, thí sinh cần viết tối thiểu bao nhiêu từ cho Task 1 và Task 2?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9183,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.3333
+          },
+          "latency_s": 4.953,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-03",
+          "question": "Coherence và Cohesion trong IELTS Writing khác nhau như thế nào?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.0,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 0.0
+          },
+          "latency_s": 4.76,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-04",
+          "question": "Những lỗi sai thường gặp ở tiêu chí Cohesion trong IELTS Writing là gì?",
+          "scores": {
+            "faithfulness": 0.3333,
+            "answer_relevancy": 0.0,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 0.0
+          },
+          "latency_s": 4.403,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-05",
+          "question": "Tiêu chí Lexical Resource đánh giá những khía cạnh nào và chiếm bao nhiêu phần trăm điểm?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9386,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.866,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-06",
+          "question": "Cho ví dụ về collocation được bài viết gợi ý để cải thiện Lexical Resource.",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8399,
+            "context_recall": 0.5,
+            "llm_context_precision_with_reference": 0.5
+          },
+          "latency_s": 4.281,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-07",
+          "question": "Theo tiêu chí Grammatical Range and Accuracy, thí sinh ở phạm vi band 7 đến 9 nên mắc bao nhiêu lỗi ngữ pháp?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9038,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.542,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-08",
+          "question": "Trong IELTS Writing, điểm của Task 2 có trọng số như thế nào so với Task 1?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.991,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.7
+          },
+          "latency_s": 4.699,
+          "contexts_count": 5
+        }
+      ]
+    },
+    "B": {
+      "label": "hybrid + RRF",
+      "use_reranking": true,
+      "means": {
+        "faithfulness": 0.9804,
+        "answer_relevancy": 0.7857,
+        "context_recall": 0.9118,
+        "llm_context_precision_with_reference": 0.8127
+      },
+      "per_case": [
+        {
+          "id": "legal-01",
+          "question": "Thí sinh được đổi ngày thi IELTS miễn phí chậm nhất là bao nhiêu ngày trước ngày thi?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8384,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.627,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-02",
+          "question": "Nếu thí sinh yêu cầu đổi ngày thi IELTS trong vòng 14 ngày đến 4 ngày trước ngày thi thì phải nộp phí bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.907,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.914,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-03",
+          "question": "Yêu cầu đổi ngày thi IELTS trong vòng 3 ngày trước ngày thi có được chấp nhận không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9614,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.438,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-04",
+          "question": "Thí sinh được đổi ngày thi IELTS tối đa bao nhiêu lần?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8946,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.75
+          },
+          "latency_s": 4.721,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-05",
+          "question": "Nếu thí sinh đăng ký thi trong vòng 3 ngày trước ngày thi thì có được hủy thi hoặc đổi ngày thi không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9664,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.199,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-06",
+          "question": "Hủy thi IELTS trước 15 ngày so với ngày thi đã đăng ký thì được hoàn bao nhiêu phần trăm lệ phí?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8491,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.8667
+          },
+          "latency_s": 4.607,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-07",
+          "question": "Hủy thi IELTS trong vòng dưới 15 ngày trước ngày thi thì có được hoàn phí không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9721,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.3333
+          },
+          "latency_s": 4.722,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-08",
+          "question": "Quy trình hoàn phí thi IELTS cho thí sinh được thực hiện trong bao lâu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8448,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.449,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-09",
+          "question": "Thí sinh thi IELTS for UKVI hủy đăng ký trong vòng 15 ngày trước ngày thi được hoàn trả bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9429,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 5.034,
+          "contexts_count": 5
+        },
+        {
+          "id": "legal-10",
+          "question": "Những trường hợp nào được xem là ngoại lệ khi hủy hoặc đổi ngày thi IELTS?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.0,
+            "context_recall": 0.0,
+            "llm_context_precision_with_reference": 0.0
+          },
+          "latency_s": 4.511,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-01",
+          "question": "Điểm IELTS Overall được tính như thế nào?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 0.8667
+          },
+          "latency_s": 4.913,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-02",
+          "question": "Điểm trung bình bốn kỹ năng là 6.75 thì điểm IELTS Overall được làm tròn thành bao nhiêu?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9638,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.047,
+          "contexts_count": 5
+        },
+        {
+          "id": "scoring-03",
+          "question": "Bài thi IELTS Writing được chấm bởi bao nhiêu giám khảo?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.987,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.608,
+          "contexts_count": 5
+        },
+        {
+          "id": "format-01",
+          "question": "Cấu trúc và thời gian các kỹ năng trong kỳ thi IELTS như thế nào?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9821,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 5.039,
+          "contexts_count": 5
+        },
+        {
+          "id": "format-02",
+          "question": "Thí sinh thi Nghe, Đọc và Viết trong cùng một ngày thì có thời gian nghỉ giữa các môn không?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9111,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.151,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-01",
+          "question": "Tiêu chí Task Achievement chiếm bao nhiêu phần trăm tổng số điểm bài thi IELTS Writing?",
+          "scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_recall": 1.0,
+            "llm_context_precision_with_reference": 1.0
+          },
+          "latency_s": 4.846,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-02",
+          "question": "Theo tiêu chí Task Achievement, thí sinh cần viết tối thiểu bao nhiêu từ cho Task 1 và Task 2?",
+          "scores": {
+            "faithfulness": 0.6667,
+            "answer_relevancy": 0.0,
+            "context_recall": 0.5,
+            "llm_context_precision_with_reference": 0.0
+          },
+          "latency_s": 4.873,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-03",
+          "question": "Coherence và Cohesion trong IELTS Writing khác nhau như thế nào?",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": 0.0,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.512,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-04",
+          "question": "Những lỗi sai thường gặp ở tiêu chí Cohesion trong IELTS Writing là gì?",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.43,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-05",
+          "question": "Tiêu chí Lexical Resource đánh giá những khía cạnh nào và chiếm bao nhiêu phần trăm điểm?",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": 0.9067,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.96,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-06",
+          "question": "Cho ví dụ về collocation được bài viết gợi ý để cải thiện Lexical Resource.",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.218,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-07",
+          "question": "Theo tiêu chí Grammatical Range and Accuracy, thí sinh ở phạm vi band 7 đến 9 nên mắc bao nhiêu lỗi ngữ pháp?",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.546,
+          "contexts_count": 5
+        },
+        {
+          "id": "news-08",
+          "question": "Trong IELTS Writing, điểm của Task 2 có trọng số như thế nào so với Task 1?",
+          "scores": {
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_recall": null,
+            "llm_context_precision_with_reference": null
+          },
+          "latency_s": 4.58,
+          "contexts_count": 5
+        }
+      ]
+    }
+  },
+  "delta_b_minus_a": {
+    "faithfulness": 0.0239,
+    "answer_relevancy": -0.004,
+    "context_recall": 0.1509,
+    "llm_context_precision_with_reference": 0.0902
+  }
+}
