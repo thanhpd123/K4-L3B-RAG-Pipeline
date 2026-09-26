@@ -23,11 +23,9 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
 | ------------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------- |
 | RRF, fallback, retrieval | Hoàn thiện rerank RRF, PageIndex fallback và retrieval pipeline (RRF chạy một lần) | `src/task7_reranking.py`, `src/task8_pageindex_vectorless.py`, `src/task9_retrieval_pipeline.py` — commit `95e49e4` | Done       |
 | Chatbot UI               | Giao diện Streamlit: hiển thị answer, nguồn, retrieval method, score và citation   | `app.py` — commit `95e49e4`                                                                                         | Done       |
-| Generation có citation   | Sửa lỗi Gemini client bị đóng khiến chatbot không sinh được câu trả lời            | `src/task10_generation.py` (`_get_gemini_client`)                                                                   | Done       |
 | Golden dataset           | Tạo 23 câu Q&A bám corpus thật, có `expected_answer` và `expected_context`         | `group_project/evaluation/golden_dataset.json`                                                                      | Done       |
 | Evaluation harness       | Viết module chấm 4 metric, so sánh A/B và hiệu chỉnh threshold                     | `src/task11_evaluation.py`                                                                                          | Done       |
 | Hiệu chỉnh threshold     | Đo dense cosine cho query in-domain và out-of-domain, đề xuất ngưỡng 0.5171        | `group_project/evaluation/threshold_calibration.json`                                                               | Done       |
-| Tài liệu & vệ sinh repo  | Thêm bước evaluation vào README, ignore index/cache, khai báo `httpx`              | `README.md`, `.gitignore`, `pyproject.toml`                                                                         | Done       |
 
 ## Quyết định kỹ thuật quan trọng
 
@@ -56,9 +54,8 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
   Config A trên đủ 23 câu: faithfulness `0.9565`, answer relevancy `0.7897`, context recall `0.7609`, context precision `0.7225`.
 
 - **Lỗi đã phát hiện và cách xử lý:**
-  1. `Cannot send a request, as the client has been closed` — `genai.Client(api_key=...)` tạo tạm bị thu hồi và đóng HTTP client trước khi gửi request. Cô lập bằng 4 biến thể (client tạo tạm vs client gán biến); sửa bằng cache client trong `_get_gemini_client`. Đây là bug có sẵn nên trước đó `app.py` không sinh được câu trả lời với provider Gemini.
-  2. `AttributeError: 'HuggingFaceEmbeddings' object has no attribute 'embed_query'` — lớp embeddings interface mới của ragas thiếu `embed_query`/`embed_documents` mà `AnswerRelevancy` gọi, còn lớp legacy thì thiếu implementation async nên không instantiate được. Sửa bằng adapter bọc lớp mới và bổ sung đúng hai method thiếu.
-  3. `429 RESOURCE_EXHAUSTED` — free tier chỉ 15 request/phút và ragas không retry hiệu quả. Sửa bằng rate limiter dùng chung, gắn vào `httpx` transport của client evaluator và giãn cả call generation của pipeline.
+  1. `AttributeError: 'HuggingFaceEmbeddings' object has no attribute 'embed_query'` — lớp embeddings interface mới của ragas thiếu `embed_query`/`embed_documents` mà `AnswerRelevancy` gọi, còn lớp legacy thì thiếu implementation async nên không instantiate được. Sửa bằng adapter bọc lớp mới và bổ sung đúng hai method thiếu.
+  2. `429 RESOURCE_EXHAUSTED` — free tier chỉ 15 request/phút và ragas không retry hiệu quả. Sửa bằng rate limiter dùng chung, gắn vào `httpx` transport của client evaluator và giãn cả call generation của pipeline.
 
 ## Điều còn hạn chế
 
